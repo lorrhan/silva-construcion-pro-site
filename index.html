@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Silva Construction Pro</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f2438;
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .cta-button {
+      background-color: #f5b942;
+      color: black;
+      font-weight: bold;
+      border: none;
+      padding: 12px 24px;
+      margin: 20px 0;
+      cursor: pointer;
+    }
+    .section img {
+      max-width: 300px;
+      margin: 20px;
+    }
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 4px;
+    }
+    button[type="submit"] {
+      background-color: #f5b942;
+      border: none;
+      padding: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      width: 100%;
+    }
+    footer {
+      margin: 30px 0;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      padding: 12px 16px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo-silva.png" alt="Silva Construction Pro Logo" style="max-width: 150px;"/>
+    <h1>Silva Construction Pro</h1>
+    <p>Building trust, delivering quality.</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="#">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="cta-button">FREE ESTIMATES, COMPETITIVE PRICING</button>
+  </header>
+
+  <section class="section">
+    <img src="images/values.png" alt="Values"/>
+    <img src="images/mission.png" alt="Mission"/>
+    <img src="images/vision.png" alt="Vision"/>
+  </section>
+
+  <section id="contact">
+    <form action="https://formspree.io/f/xpwdpovv" method="POST">
+      <input type="text" name="name" placeholder="Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <textarea name="message" placeholder="Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Contact: 978-239-4443 | silvaconstructionpro@outlook.com</p>
+    <p>Instagram: @prosilvaconstruction</p>
+    <p>396 Main Street, Saugus, MA 01906</p>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/19783949758" target="_blank">WhatsApp</a>
+</body>
+</html>
