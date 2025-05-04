@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Silva Construction Pro</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/carousel.js" defer></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0a1e2d;
+      color: white;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      max-width: 150px;
+      margin-bottom: 10px;
+    }
+    nav {
+      margin: 20px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .cta-button {
+      background-color: #f7a31c;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+    .carousel {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+      padding: 0 10px;
+    }
+    .carousel img {
+      max-height: 200px;
+      border-radius: 8px;
+    }
+    .section-imgs {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 40px 0;
+      flex-wrap: wrap;
+    }
+    .section-imgs img {
+      max-width: 300px;
+      border-radius: 10px;
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    button[type="submit"] {
+      background-color: #f7a31c;
+      padding: 10px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      margin: 30px 0;
+      font-size: 0.9em;
+    }
+    #whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo-silva.png" alt="Silva Construction Pro Logo" />
+    <h1>Silva Construction Pro</h1>
+    <p>Building trust, delivering quality.</p>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+    </nav>
+    <button class="cta-button">FREE ESTIMATES, COMPETITIVE PRICING</button>
+  </header>
+
+  <section class="carousel">
+    <img src="images/portfolio1.jpg" />
+    <img src="images/portfolio2.jpg" />
+    <img src="images/portfolio3.jpg" />
+    <img src="images/portfolio4.jpg" />
+    <img src="images/portfolio5.jpg" />
+    <img src="images/portfolio6.jpg" />
+    <img src="images/portfolio7.jpg" />
+  </section>
+
+  <section class="section-imgs">
+    <img src="images/values.png" alt="Values" />
+    <img src="images/mission.png" alt="Mission" />
+    <img src="images/vision.png" alt="Vision" />
+  </section>
+
+  <form action="https://formspree.io/f/xpwdpovv" method="POST">
+    <input type="text" name="name" placeholder="Name" required />
+    <input type="email" name="email" placeholder="Email" required />
+    <textarea name="message" placeholder="Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <footer>
+    <p>Contact: 978-239-4443 | silvaconstructionpro@outlook.com</p>
+    <p>Instagram: @prosilvaconstruction</p>
+    <p>396 Main Street, Saugus, MA 01906</p>
+  </footer>
+
+  <a href="https://wa.me/19783949758" id="whatsapp" target="_blank">WhatsApp</a>
+</body>
+</html>
