@@ -1,1 +1,54 @@
-/* css */
+body {
+    font-family: Arial, sans-serif;
+    background: #0e2b3f;
+    color: white;
+    text-align: center;
+}
+header img {
+    width: 120px;
+}
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: orange;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+form {
+    margin-top: 30px;
+}
+input, textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+#whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 20px;
+    scroll-snap-type: x mandatory;
+}
+.carousel-image {
+    width: 300px;
+    height: auto;
+    scroll-snap-align: center;
+    border-radius: 8px;
+}
