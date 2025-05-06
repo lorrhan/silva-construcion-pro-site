@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silva Construction Pro</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fff; color: #000; }
+    header { background: #111; padding: 1em; text-align: center; }
+    nav a { margin: 0 1em; color: #fff; text-decoration: none; font-weight: bold; }
+    .logo { max-width: 150px; margin: auto; display: block; }
+    .main-btn { background: gold; color: black; padding: 1em; border: none; font-weight: bold; cursor: pointer; display: block; margin: 2em auto; }
+    .contact { text-align: center; padding: 2em; }
+    .contact img { width: 20px; vertical-align: middle; margin-right: 5px; }
+    .floating-btns { position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 10px; z-index: 100; }
+    .floating-btns a img { width: 40px; height: 40px; }
+    footer { background: #111; color: #fff; text-align: center; padding: 1em; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo-transparente.png" alt="Silva Construction Logo" class="logo" />
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#principles">Guiding Principles</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <button class="main-btn">FREE ESTIMATES, COMPETITIVE PRICING</button>
+    </section>
+
+    <section class="contact" id="contact">
+      <p><img src="images/phone-icon.png" alt="Phone" /> 978-239-4443</p>
+      <p><img src="images/email-icon.png" alt="Email" /> silvaconstructionpro@outlook.com</p>
+      <p><img src="images/email-icon.png" alt="Email" /> silvaconstruction03@gmail.com</p>
+      <p><img src="images/location-icon.png" alt="Location" /> Saugus MA 01906 – Newburyport MA 01950</p>
+      <form action="https://formspree.io/f/mYOURENDPOINT" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required /><br />
+        <input type="email" name="email" placeholder="Your Email" required /><br />
+        <textarea name="message" placeholder="Your Message" required></textarea><br />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <div class="floating-btns">
+    <a href="https://www.instagram.com/prosilvaconstruction" target="_blank">
+      <img src="images/instagram-icon.png" alt="Instagram" />
+    </a>
+    <a href="https://wa.me/19783949758" target="_blank">
+      <img src="images/whatsapp-icon.png" alt="WhatsApp" />
+    </a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Silva Construction Pro. All rights reserved.</p>
+  </footer>
+</body>
+</html>
